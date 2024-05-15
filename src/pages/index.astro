@@ -1,0 +1,26 @@
+---
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+import RecylingProcess from "../components/RecylingProcess.astro";
+import { Sliders } from "../components/Slider";
+import TipsForRecyling from "../components/TipsForRecyling.astro";
+import VideosRecycling from "../components/VideosRecycling.astro";
+import WhatIsRecycling from "../components/WhatIsRecycling.astro";
+import WhatMaterialsForRecycling from "../components/WhatMaterialsForRecycling.astro";
+import WhyIsImportantRecyling from "../components/WhyIsImportantRecyling.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="flex flex-col items-center justify-center w-full">
+    <Navbar />
+    <Sliders client:only />
+    <WhatIsRecycling />
+    <WhyIsImportantRecyling />
+    <RecylingProcess />
+    <WhatMaterialsForRecycling />
+    <TipsForRecyling />
+    <VideosRecycling />
+    <Footer />
+  </main>
+</Layout>

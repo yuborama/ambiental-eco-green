@@ -1,0 +1,13 @@
+@import url("font.roboto.css");
+@import url("font.robotoslab.css");
+@import url("embla.css");
+
+.font-roboto {
+  font-family: "Roboto";
+}
+.font-roboto-slab {
+  font-family: "Roboto Slab";
+}
+* {
+  font-family: "Roboto";
+}

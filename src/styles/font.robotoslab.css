@@ -1,0 +1,73 @@
+/* Importa la fuente Roboto Regular */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: normal; /* Peso normal */
+}
+
+/* Roboto Slab Black */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Black.ttf") format("truetype");
+  font-weight: 900; /* Peso negrita */
+}
+
+/* Roboto Slab Bold */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Bold.ttf") format("truetype");
+  font-weight: bold; /* Peso bold */
+}
+
+/* Roboto Slab ExtraBold */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800; /* Peso extra bold */
+}
+
+/* Roboto Slab ExtraLight */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200; /* Peso extra light */
+}
+
+/* Roboto Slab Light */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Light.ttf") format("truetype");
+  font-weight: 300; /* Peso light */
+}
+
+/* Roboto Slab Medium */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Medium.ttf") format("truetype");
+  font-weight: 500; /* Peso medium */
+}
+
+/* Roboto Slab SemiBold */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600; /* Peso semi bold */
+}
+
+/* Roboto Slab Thin */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-Thin.ttf") format("truetype");
+  font-weight: 100; /* Peso thin */
+}
+
+/* Roboto Slab VariableFont_wght */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("public/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf")
+    format("truetype");
+  /* Si estás utilizando una fuente variable, el peso se ajusta dinámicamente */
+}

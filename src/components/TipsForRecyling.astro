@@ -1,0 +1,40 @@
+<section class="py-4 max-w-[1024px] w-full flex flex-col gap-4 mt-18">
+  <p class="font-roboto-slab font-bold text-xl">
+    ¿Cómo separar los materiales reciclables correctamente?
+  </p>
+  <div class="flex flex-wrap flex-row">
+    {
+      [
+        {
+          title: "Plasticos y latas",
+          image: "photos/plastic.png",
+        },
+        {
+          title: "Papel y cartones",
+          image: "photos/paper.png",
+        },
+        {
+          title: "Vidrio",
+          image: "photos/glass.png",
+        },
+        {
+          title: "Materiales Peligrosos",
+          image: "photos/dangermaterial.png",
+        },
+        {
+          title: "Residuos Organicos",
+          image: "photos/organic.png",
+        },
+        {
+          title: "Varios",
+          image: "photos/others.png",
+        },
+      ]?.map((e) => (
+        <article class="basis-[100px] flex-grow flex flex-col items-center justify-center">
+          <img src={e?.image} alt="" srcset="" />
+          <p class="font-bold text-xs">{e?.title}</p>
+        </article>
+      ))
+    }
+  </div>
+</section>
